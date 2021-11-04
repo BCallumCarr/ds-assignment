@@ -1,0 +1,6 @@
+# csvs and other files in data folder
+\data
+*.csv
+
+# assignment specs
+*.docx
