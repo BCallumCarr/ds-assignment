@@ -1,0 +1,20 @@
+root - INFO - Reading in activities.csv
+root - INFO - There are 2 variables and one key in activities.csv
+root - INFO - There are 22642 observations in activities.csv
+root - WARNING - This is a Warning
+root - INFO - Reading in activities.csv
+root - INFO - There are 4 variables and one key in users.csv
+root - INFO - There are 5807 observations in users.csv
+root - INFO - Reading in activities.csv
+root - INFO - There are 22642 observations in activities.csv
+root - WARNING - This is a Warning
+root - INFO - Reading in activities.csv
+root - INFO - Reading in activities.csv
+root - INFO - There are 4 variables and one key in users.csv
+root - INFO - There are 5807 observations in users.csv
+root - INFO - Reading in activities.csv
+matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+matplotlib.font_manager - INFO - Failed to extract font properties from /Library/Fonts/NISC18030.ttf: In FT2Font: Could not set the fontsize (error code 0x17)
+matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: In FT2Font: Could not set the fontsize (error code 0x17)
+numexpr.utils - INFO - NumExpr defaulting to 4 threads.
