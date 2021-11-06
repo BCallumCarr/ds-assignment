@@ -4,3 +4,6 @@
 
 # assignment specs
 *.docx
+
+# other
+.DS_Store
