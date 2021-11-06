@@ -10,7 +10,7 @@ The logs contain the answers to the assignment, and the graphs are displayed in 
 
 The notebook code was replicated in standalone Python files which automatically output answers to a txt file and graphs to pngs, based on the data in the data folder.
 
-The `users` and `activities` datasets can be updated in the data folder, and the `run_analysis.exe` can be run to automatically analyse the new data, so long as the schema of the data is the same.
+The `users` and `activities` datasets can be updated in the data folder, and the `main.py` file can be run to automatically analyse the new data, so long as the schema of the data is the same.
 
 ## Testing
 
