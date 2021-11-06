@@ -11,3 +11,5 @@
 # jupyter notebook sundry
 notebooks/.ipynb_checkpoints
 
+# from vs code
+__pycache__
