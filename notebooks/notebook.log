@@ -1,0 +1,16 @@
+root - INFO - Reading in activities.csv
+root - INFO - There are 2 variables and one key in activities.csv
+root - INFO - There are 22642 observations in activities.csv
+root - INFO - Reading in users.csv
+root - INFO - There are 4 variables and one key in users.csv
+root - INFO - There are 5807 observations in users.csv
+root - INFO - There are 2909 male observations in users.csv
+root - INFO - There are 1417 female observations in users.csv
+root - INFO - There are 1481 missing gender observations in users.csv
+root - INFO - For test of null hypothesis that means are equal (assuming an equal variance), p-value is 0.02131433312849818, reject null that means are equal
+numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+root - INFO - Country with biggest gender difference for revenue is US
+root - INFO - The statistically significant variables at a 5% level are ['TotalDay1Revenue']
+root - INFO - The average 40-year-old French woman, having generated GBP 20 on registration date, would expect to earn 89.24 in her first week
+root - INFO - The average 40-year-old German woman, having generated GBP 20 on registration date, would expect to earn 52.61 in her first week
+root - INFO - The average 40-year-old British woman, having generated GBP 20 on registration date, would expect to earn 75.81 in her first week
