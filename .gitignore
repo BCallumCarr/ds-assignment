@@ -7,3 +7,6 @@
 
 # other
 .DS_Store
+
+# jupyter notebook sundry
+.ipynb_checkpoints
