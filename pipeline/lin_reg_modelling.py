@@ -83,8 +83,7 @@ def lin_reg_week1_rev(file, df_acts_users, df_users):
 
     df_lin_reg = reduce(lambda left, right: pd.merge(left, right,on="UserId", how="left"), dataframes)
 
-    lagging_user_eg = df_acts_users.loc[df_acts_users["UserId"] == 3109386,:]
-    logging.info(f"There are some users who have revenue within a week, but no revenue on day 1: \n {lagging_user_eg}")
+    logging.info("There are some users who have revenue within a week, but no revenue on day 1.")
 
     # fill nans with 0 for 1 day revenue
     df_lin_reg["TotalDay1Revenue"].fillna(0, inplace=True)
@@ -95,7 +94,7 @@ def lin_reg_week1_rev(file, df_acts_users, df_users):
     # specify features
     X = df_lin_reg[["Gender", "AgeInDays", "Country", "TotalDay1Revenue"]]
 
-    logging.info(f"Feature data types: {X.dtypes}")
+    logging.info(f"Feature data types: \n\n {X.dtypes}")
 
     # get dummy variables for categorical independent variables
     X = pd.get_dummies(data=X, drop_first=True)
