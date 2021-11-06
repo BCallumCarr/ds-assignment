@@ -9,4 +9,5 @@
 .DS_Store
 
 # jupyter notebook sundry
-.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+
