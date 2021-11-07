@@ -1,18 +1,24 @@
 # ds-assignment
 
-## Initial EDA
+## Final Answers
 
-The notebook folder contains a Jupyter notebook where the initial EDA on the `users` and `activities` datasets (not committed to this repo) was performed.
+The final `answers.txt` file and graph answers are in the `pipeline/answers/` folder. 
 
-The logs contain the answers to the assignment, and the graphs are displayed in the notebook.
 
-## Productionising the process
+## What I Did
 
-The notebook code was replicated in standalone Python files which automatically output answers to a txt file and graphs to pngs, based on the data in the data folder.
+### Initial EDA
 
-The `users` and `activities` datasets can be updated in the data folder, and the `main.py` file can be run to automatically analyse the new data, so long as the schema of the data is the same.
+I started out with some EDA on the `users` and `activities` datasets (not committed to this repo) in a Jupyter notebook.
 
-## Testing
+The logs also contain the answers to the assignment, and the graphs are displayed in the notebook.
 
-Feature to be implemented: Implement testing and validation to ensure new data loaded into data folder is processed correctly.
+### Productionising the process
 
+The notebook code was replicated in standalone Python files which automatically output answers to the `answers.txt` file and graphs to pngs, based on the data in the `data` folder.
+
+The `users` and `activities` datasets can be placed + updated in this data folder, and then when the `main.py` file is run the data will be automatically analysed, so long as the schema of the data is the same.
+
+### Testing
+
+Feature to be implemented: Implement testing and validation to ensure new data loaded into `data` folder is processed correctly.
