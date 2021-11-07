@@ -113,7 +113,7 @@ def lin_reg_week1_rev(file, df_acts_users, df_users):
     stat_sig_vars = coefs_and_p_vals.loc[coefs_and_p_vals["Probabilities"] < 0.05,"Variables"].to_list()
 
     file.write("\n\n9)")
-    file.write(f"\nT he statistically significant variables at a 5% level are {stat_sig_vars}")
+    file.write(f"\n The statistically significant variables at a 5% level are {stat_sig_vars}")
 
     return X, y
 
@@ -137,9 +137,6 @@ def predict_given_features(file, X, y):
     british_women_1week_earn = round(model.predict(predict_X)[2], 2)
 
     file.write(f"\n\n10)")
-    file.write(f"\n The average 40-year-old French woman, having generated GBP 20 on registration date, would expect to earn {french_women_1week_earn} in her first week")
-    file.write(f"\n The average 40-year-old German woman, having generated GBP 20 on registration date, would expect to earn {german_women_1week_earn} in her first week")
-    file.write(f"\n The average 40-year-old British woman, having generated GBP 20 on registration date, would expect to earn {british_women_1week_earn} in her first week")
-
-
-
+    file.write(f"\n The average 40-year-old French woman, having generated GBP 20 on registration date, would expect to earn {french_women_1week_earn} in her first week.")
+    file.write(f"\n The average 40-year-old German woman, having generated GBP 20 on registration date, would expect to earn {german_women_1week_earn} in her first week.")
+    file.write(f"\n The average 40-year-old British woman, having generated GBP 20 on registration date, would expect to earn {british_women_1week_earn} in her first week.")

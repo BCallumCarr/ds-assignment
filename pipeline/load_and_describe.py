@@ -77,9 +77,10 @@ def merge_and_agg_stats(file, df_acts, df_users):
     median_rev = df_acts_users["Revenue"].median()
 
     file.write("\n\n3)")
-    file.write(f"\n The average earnings for an individual is {mean_rev} but the most common earning is {median_rev}.")
+    file.write(f"\n The average earnings for an individual is {mean_rev} but the middle earning is {median_rev}.")
+    file.write(f"\n The average earnings for an individual is {mean_rev} but the middle earning is {median_rev}.")
     file.write(f"\n I.e. the average earnings across all activities for the period users are active is {mean_rev},")
-    file.write(f" and the fact that the mean is greater than the median implies that the data in the population are skewed to the right.")
+    file.write(f"\n There are also probably some outliers in the data, since the mean is more sensitive to outliers.")
 
     return df_acts_users
 

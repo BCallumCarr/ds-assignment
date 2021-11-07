@@ -17,23 +17,25 @@
  There are 1481 missing gender observations in users.csv
 
 3)
- The average earnings for an individual is 131.26 but the most common earning is 40.0.
- I.e. the average earnings across all activities for the period users are active is 131.26, and the fact that the mean is greater than the median implies that the data in the population are skewed to the right.
+ The average earnings for an individual is 131.26 but the middle earning is 40.0.
+ The average earnings for an individual is 131.26 but the middle earning is 40.0.
+ I.e. the average earnings across all activities for the period users are active is 131.26,
+ There are also probably some outliers in the data, since the mean is more sensitive to outliers.
 
 5)
  The average earnings for an individual in their first week is 131.2853274336288.
 
 6)
  The one week female revenue average is 112.65, while the male average is 137.2
- For test of null hypothesis that means are equal (assuming an equal variance), p-value is 0.02131, thus we reject the null hypothesis that the means are equal
+ For test of null hypothesis that means are equal (assuming an equal variance) we use a z-test, p-value is 0.02131, thus we reject the null hypothesis that the means are equal. The difference between means is statistically significant at the 2.5% level.
 
 7)
  Country with biggest gender difference for revenue is US
 
 9)
-T he statistically significant variables at a 5% level are ['TotalDay1Revenue']
+ The statistically significant variables at a 5% level are ['TotalDay1Revenue']
 
 10)
- The average 40-year-old French woman, having generated GBP 20 on registration date, would expect to earn 89.24 in her first week
- The average 40-year-old German woman, having generated GBP 20 on registration date, would expect to earn 52.61 in her first week
- The average 40-year-old British woman, having generated GBP 20 on registration date, would expect to earn 75.81 in her first week
+ The average 40-year-old French woman, having generated GBP 20 on registration date, would expect to earn 89.24 in her first week.
+ The average 40-year-old German woman, having generated GBP 20 on registration date, would expect to earn 52.61 in her first week.
+ The average 40-year-old British woman, having generated GBP 20 on registration date, would expect to earn 75.8 in her first week.

@@ -23,7 +23,7 @@ def test_mean_difference(file, df_acts_one_week):
 
     diff_means_p_val = round( ztest(x1=males, x2=females)[1], 5)
 
-    file.write(f"\n For test of null hypothesis that means are equal (assuming an equal variance), p-value is {diff_means_p_val},")
-    file.write(" thus we reject the null hypothesis that the means are equal")
+    file.write(f"\n For test of null hypothesis that means are equal (assuming an equal variance) we use a z-test, p-value is {diff_means_p_val},")
+    file.write(" thus we reject the null hypothesis that the means are equal. The difference between means is statistically significant at the 2.5% level.")
 
     # assume non-equal variance?
